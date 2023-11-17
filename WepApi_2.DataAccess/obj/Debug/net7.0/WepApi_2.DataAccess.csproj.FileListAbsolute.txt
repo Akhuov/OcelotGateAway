@@ -13,3 +13,5 @@ D:\Study\.Net(Najot)\OcelotGateAway\WepApi_2.DataAccess\obj\Debug\net7.0\WepApi_
 D:\Study\.Net(Najot)\OcelotGateAway\WepApi_2.DataAccess\obj\Debug\net7.0\refint\WepApi_2.DataAccess.dll
 D:\Study\.Net(Najot)\OcelotGateAway\WepApi_2.DataAccess\obj\Debug\net7.0\WepApi_2.DataAccess.pdb
 D:\Study\.Net(Najot)\OcelotGateAway\WepApi_2.DataAccess\obj\Debug\net7.0\ref\WepApi_2.DataAccess.dll
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_2.DataAccess\bin\Debug\net7.0\WepApi_2.DataAccess.runtimeconfig.json
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_2.DataAccess\obj\Debug\net7.0\WepApi_2.DataAccess.genruntimeconfig.cache

@@ -12,17 +12,17 @@ namespace WepApi_1.DataAccess.Repositories.Employees
             _appDbContext = appDbContext;
         }
 
-        public async ValueTask<Employee> Create(Employee employee)
+        public async ValueTask<string> Create(Employee employee)
         {
             try
             {
                 await _appDbContext.Employees.AddAsync(employee);
                 await _appDbContext.SaveChangesAsync();
-                return employee;
+                return "Created";
             }
-            catch 
+            catch(Exception ex)
             {
-                return null;
+                return ex.Message;
             }
         }
 
@@ -39,7 +39,7 @@ namespace WepApi_1.DataAccess.Repositories.Employees
             }
         }
 
-        public async ValueTask<Employee> Update(int id,Employee employee)
+        public async ValueTask<string> Update(int id,Employee employee)
         {
             try
             {
@@ -49,12 +49,13 @@ namespace WepApi_1.DataAccess.Repositories.Employees
                     emp.FirstName = employee.FirstName;
                     emp.LastName = employee.LastName;
                     await _appDbContext.SaveChangesAsync();
+                    return "Updated";
                 }
-                return emp;
+                return "Employee Not Found";
             }
-            catch
+            catch(Exception ex)
             {
-                return null;
+                return ex.Message;
             }
         }
     }

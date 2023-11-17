@@ -1,27 +1,27 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/Backets/GetAll",
+      "DownstreamPathTemplate": "/api/Employees/GetAll",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7003
+          "Port": 7104
         }
       ],
-      "UpstreamPathTemplate": "/backet",
+      "UpstreamPathTemplate": "/api/Employees/GetAll",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
-      "DownstreamPathTemplate": "/api/Catalogs",
+      "DownstreamPathTemplate": "/api/People/GetAll",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7260
+          "Port": 7014
         }
       ],
-      "UpstreamPathTemplate": "/catalog",
+      "UpstreamPathTemplate": "/api/People/GetAll",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],

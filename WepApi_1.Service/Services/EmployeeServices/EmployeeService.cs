@@ -22,8 +22,8 @@ namespace WepApi_1.Service.Services.EmployeeServices
                     LastName = employeeDto.LastName,
                 };
 
-                var res = _employeeRepository.Create(newEmp);
-                return "Employee Created";
+                var res = await _employeeRepository.Create(newEmp);
+                return res;
             }
             catch(Exception ex) 
             {
@@ -56,7 +56,7 @@ namespace WepApi_1.Service.Services.EmployeeServices
                 };
                 var res = await _employeeRepository.Update(id,emp);
 
-                return "Updated";
+                return res;
             }
             catch (Exception ex)
             {

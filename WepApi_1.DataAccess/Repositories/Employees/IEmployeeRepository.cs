@@ -2,10 +2,10 @@
 //Get,Create,update,
 namespace WepApi_1.DataAccess.Repositories.Employees
 {
-    public interface IEmployeeRepository : IBaseRepository<Employee>
+    public interface IEmployeeRepository 
     {
-        public ValueTask<Employee> Create(Employee employee);
-        public ValueTask<Employee> Update(int id,Employee employee);
+        public ValueTask<string> Create(Employee employee);
+        public ValueTask<string> Update(int id,Employee employee);
         public ValueTask<List<Employee>> GetAll();
     }
 }

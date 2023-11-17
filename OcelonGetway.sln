@@ -5,15 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src_1", "src_1", "{6BD28606-8905-450C-B1E7-5A2C92C67AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{24A066BC-4E50-4916-8422-FD296C1F6E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{0D78C956-C407-40EC-B2C0-85BD5DB04FBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{0D78C956-C407-40EC-B2C0-85BD5DB04FBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{DFED2FF4-79B4-4CF2-A848-6F43A18EBBDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{DFED2FF4-79B4-4CF2-A848-6F43A18EBBDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication4", "WebApplication4\WebApplication4.csproj", "{EC27423F-9E36-4336-9CF0-5FDE7E853484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication4", "WebApplication4\WebApplication4.csproj", "{EC27423F-9E36-4336-9CF0-5FDE7E853484}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGetAway", "OcelotGetAway\OcelotGetAway.csproj", "{40FB44FA-22EA-4106-82A1-920B51C03E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotGetAway", "OcelotGetAway\OcelotGetAway.csproj", "{40FB44FA-22EA-4106-82A1-920B51C03E8B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WepApi_1", "WepApi_1", "{60651A16-33A3-4AA9-B665-DA0353C3CEB2}"
 EndProject
@@ -25,29 +23,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WepApi_4", "WepApi_4", "{45
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetAway", "GetAway", "{71A84663-EB3C-4312-A019-7DB3835A3A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_1.DataAccess", "WepApi_1.DataAccess\WepApi_1.DataAccess.csproj", "{784778DE-809B-4BC2-9007-64C8B4EED5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_1.DataAccess", "WepApi_1.DataAccess\WepApi_1.DataAccess.csproj", "{784778DE-809B-4BC2-9007-64C8B4EED5F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_2.DataAccess", "WepApi_2.DataAccess\WepApi_2.DataAccess.csproj", "{7223F3A0-D466-4D66-B22E-115583293A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_2.DataAccess", "WepApi_2.DataAccess\WepApi_2.DataAccess.csproj", "{7223F3A0-D466-4D66-B22E-115583293A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_3.DataAccess", "WepApi_3.DataAccess\WepApi_3.DataAccess.csproj", "{20E1316F-0066-450D-966A-5C9D813BDF1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_3.DataAccess", "WepApi_3.DataAccess\WepApi_3.DataAccess.csproj", "{20E1316F-0066-450D-966A-5C9D813BDF1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_4.DataAccess", "WepApi_4.DataAccess\WepApi_4.DataAccess.csproj", "{023F536C-B95E-4DB2-8721-118ED21BABD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_4.DataAccess", "WepApi_4.DataAccess\WepApi_4.DataAccess.csproj", "{023F536C-B95E-4DB2-8721-118ED21BABD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_1.Domain", "WepApi_1.Domain\WepApi_1.Domain.csproj", "{79626C3F-D5A9-4398-A3B3-74DA38B7D4C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_1.Domain", "WepApi_1.Domain\WepApi_1.Domain.csproj", "{79626C3F-D5A9-4398-A3B3-74DA38B7D4C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_2.Domain", "WepApi_2.Domain\WepApi_2.Domain.csproj", "{31765FDC-1A20-4896-9205-20CC1F11E16A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_2.Domain", "WepApi_2.Domain\WepApi_2.Domain.csproj", "{31765FDC-1A20-4896-9205-20CC1F11E16A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_3.Domain", "WepApi_3.Domain\WepApi_3.Domain.csproj", "{FDE78B4E-CCE5-47F0-8CFA-51CF0A8A3746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_3.Domain", "WepApi_3.Domain\WepApi_3.Domain.csproj", "{FDE78B4E-CCE5-47F0-8CFA-51CF0A8A3746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_4.Domain", "WepApi_4.Domain\WepApi_4.Domain.csproj", "{7F573282-4B89-456D-93CD-8F00B76F422B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_4.Domain", "WepApi_4.Domain\WepApi_4.Domain.csproj", "{7F573282-4B89-456D-93CD-8F00B76F422B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_1.Service", "WepApi_1.Service\WepApi_1.Service.csproj", "{B4E77CFC-6BC1-490A-8E2E-039C53E0BBFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_1.Service", "WepApi_1.Service\WepApi_1.Service.csproj", "{B4E77CFC-6BC1-490A-8E2E-039C53E0BBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_2.Service", "WepApi_2.Service\WepApi_2.Service.csproj", "{9D665A0B-D3C0-44ED-B703-2C2CBBA27B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_2.Service", "WepApi_2.Service\WepApi_2.Service.csproj", "{9D665A0B-D3C0-44ED-B703-2C2CBBA27B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_3.Service", "WepApi_3.Service\WepApi_3.Service.csproj", "{E4B078B1-CD14-461E-81F1-3AD86C7948C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_3.Service", "WepApi_3.Service\WepApi_3.Service.csproj", "{E4B078B1-CD14-461E-81F1-3AD86C7948C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi_4.Service", "WepApi_4.Service\WepApi_4.Service.csproj", "{DBF59A8E-3E68-4BBB-8005-2862315FA75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi_4.Service", "WepApi_4.Service\WepApi_4.Service.csproj", "{DBF59A8E-3E68-4BBB-8005-2862315FA75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApplication1", "WepApplication1\WepApplication1.csproj", "{78E8FA54-CCA9-4D34-ADE7-413E4F5834E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +55,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{24A066BC-4E50-4916-8422-FD296C1F6E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24A066BC-4E50-4916-8422-FD296C1F6E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24A066BC-4E50-4916-8422-FD296C1F6E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24A066BC-4E50-4916-8422-FD296C1F6E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D78C956-C407-40EC-B2C0-85BD5DB04FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D78C956-C407-40EC-B2C0-85BD5DB04FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D78C956-C407-40EC-B2C0-85BD5DB04FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -123,12 +119,15 @@ Global
 		{DBF59A8E-3E68-4BBB-8005-2862315FA75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF59A8E-3E68-4BBB-8005-2862315FA75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF59A8E-3E68-4BBB-8005-2862315FA75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E8FA54-CCA9-4D34-ADE7-413E4F5834E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E8FA54-CCA9-4D34-ADE7-413E4F5834E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E8FA54-CCA9-4D34-ADE7-413E4F5834E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E8FA54-CCA9-4D34-ADE7-413E4F5834E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{24A066BC-4E50-4916-8422-FD296C1F6E6C} = {60651A16-33A3-4AA9-B665-DA0353C3CEB2}
 		{0D78C956-C407-40EC-B2C0-85BD5DB04FBD} = {FCD233E4-19D9-44A8-882D-35B9EB1FA959}
 		{DFED2FF4-79B4-4CF2-A848-6F43A18EBBDC} = {A3BDA3ED-29DB-4453-A307-F5B221028210}
 		{EC27423F-9E36-4336-9CF0-5FDE7E853484} = {4544C4BE-3B88-4136-AA20-F3027A5F0463}
@@ -150,6 +149,7 @@ Global
 		{9D665A0B-D3C0-44ED-B703-2C2CBBA27B13} = {FCD233E4-19D9-44A8-882D-35B9EB1FA959}
 		{E4B078B1-CD14-461E-81F1-3AD86C7948C9} = {A3BDA3ED-29DB-4453-A307-F5B221028210}
 		{DBF59A8E-3E68-4BBB-8005-2862315FA75B} = {4544C4BE-3B88-4136-AA20-F3027A5F0463}
+		{78E8FA54-CCA9-4D34-ADE7-413E4F5834E7} = {60651A16-33A3-4AA9-B665-DA0353C3CEB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F2A3248-8FEC-4BC0-88B4-D62843F00CF3}
