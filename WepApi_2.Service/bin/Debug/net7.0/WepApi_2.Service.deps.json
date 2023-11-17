@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WepApi_2.Service/1.0.0": {
+        "dependencies": {
+          "WepApi_2.DataAccess": "1.0.0",
+          "WepApi_2.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WepApi_2.Service.dll": {}
+        }
+      },
+      "WepApi_2.DataAccess/1.0.0": {
+        "dependencies": {
+          "WepApi_2.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WepApi_2.DataAccess.dll": {}
+        }
+      },
+      "WepApi_2.Domain/1.0.0": {
+        "runtime": {
+          "WepApi_2.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WepApi_2.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WepApi_2.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WepApi_2.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

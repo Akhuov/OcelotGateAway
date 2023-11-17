@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WepApi_2.DataAccess\WepApi_2.DataAccess.csproj" />
+    <ProjectReference Include="..\WepApi_2.Domain\WepApi_2.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\bin\Debug\net7.0\WepApi_4.DataAccess.deps.json
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\bin\Debug\net7.0\WepApi_4.DataAccess.dll
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\bin\Debug\net7.0\WepApi_4.DataAccess.pdb
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\bin\Debug\net7.0\WepApi_4.Domain.dll
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\bin\Debug\net7.0\WepApi_4.Domain.pdb
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.csproj.AssemblyReference.cache
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.AssemblyInfoInputs.cache
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.AssemblyInfo.cs
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.csproj.CoreCompileInputs.cache
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.csproj.CopyComplete
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.dll
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\refint\WepApi_4.DataAccess.dll
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\WepApi_4.DataAccess.pdb
+D:\Study\.Net(Najot)\OcelotGateAway\WepApi_4.DataAccess\obj\Debug\net7.0\ref\WepApi_4.DataAccess.dll
