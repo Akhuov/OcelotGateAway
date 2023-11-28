@@ -36,5 +36,19 @@ namespace WebApplication2.Controllers
             var res = await _personService.UpdateAsync(id, personDto);
             return Ok(res);
         }
+
+        [HttpDelete]
+        public async ValueTask<IActionResult> DeleteAsync(int id)
+        {
+            var res = await _personService.DeleteAsync(id);
+            return Ok(res);
+        }
+
+        [HttpGet("GetById")]
+        public async ValueTask<IActionResult> GetByIdAsync(int id)
+        {
+            var res = await _personService.GetByIdAsync(id);
+            return Ok(res);
+        }
     }
 }

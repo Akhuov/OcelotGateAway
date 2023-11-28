@@ -31,11 +31,37 @@ namespace WepApi_2.Service.Services
             }
         }
 
+        public async ValueTask<string> DeleteAsync(int id)
+        {
+            try
+            {
+                var res = await _personRepository.Delete(id);
+                return res;
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
         public async ValueTask<List<Person>> GetAll()
         {
             try
             {
                 var res = await _personRepository.GetAll();
+                return res;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public async ValueTask<Person> GetByIdAsync(int id)
+        {
+            try
+            {
+                var res =await _personRepository.GetById(id);
                 return res;
             }
             catch (Exception ex)

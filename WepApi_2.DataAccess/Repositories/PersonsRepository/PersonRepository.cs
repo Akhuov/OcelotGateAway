@@ -25,12 +25,54 @@ namespace WepApi_2.DataAccess.Repositories.PersonsRepository
             }
         }
 
+        public async ValueTask<string> Delete(int id)
+        {
+            try
+            {
+                var res = await _appDbContext.People.FirstOrDefaultAsync(x => x.Id == id);
+                if (res != null)
+                {
+                    _appDbContext.People.Remove(res);
+                    await _appDbContext.SaveChangesAsync();
+                    return "Person Deleted";
+                }
+                else
+                {
+                    return "Person Not Found";
+                }
+            }
+            catch(Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
         public async ValueTask<List<Person>> GetAll()
         {
             try
             {
                 var res = await _appDbContext.People.ToListAsync();
                 return res;
+            }
+            catch(Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public async ValueTask<Person> GetById(int id)
+        {
+            try
+            {
+                var res = await _appDbContext.People.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+                if (res!=null)
+                {
+                    return res;
+                }
+                else
+                {
+                    return null;
+                }
             }
             catch(Exception ex)
             {
