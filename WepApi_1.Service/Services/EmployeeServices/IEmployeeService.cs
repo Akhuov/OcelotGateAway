@@ -8,5 +8,8 @@ namespace WepApi_1.Service.Services.EmployeeServices
         public ValueTask<string> CreateAsync(EmployeeDto employeeDto);
         public ValueTask<string> UpdateAsync(int id,EmployeeDto employeeDto);
         public ValueTask<List<Employee>> GetAll();
+        public ValueTask<string> DeleteAsync(int id);
+
+        public ValueTask<Employee> GetByIdAsync(int id);
     }
 }

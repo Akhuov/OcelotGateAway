@@ -1,7 +1,7 @@
 ﻿using WepApi_1.DataAccess.Repositories.Employees;
 using WepApi_1.Domain.Entities;
 using WepApi_1.Service.Dtos;
-
+//Delete,Patch,GetbyId
 namespace WepApi_1.Service.Services.EmployeeServices
 {
     public class EmployeeService : IEmployeeService
@@ -31,6 +31,19 @@ namespace WepApi_1.Service.Services.EmployeeServices
             }
         }
 
+        public async ValueTask<string> DeleteAsync(int id)
+        {
+            try
+            {
+                var res = await _employeeRepository.Delete(id);
+                return res;
+            }
+            catch(Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
         public async ValueTask<List<Employee>> GetAll()
         {
             try
@@ -43,6 +56,19 @@ namespace WepApi_1.Service.Services.EmployeeServices
                 return null;
             }
 
+        }
+
+        public async ValueTask<Employee> GetByIdAsync(int id)
+        {
+            try
+            {
+                var res = await _employeeRepository.GetById(id);
+                return res;
+            }
+            catch(Exception ex) 
+            {
+                return null;
+            }
         }
 
         public async ValueTask<string> UpdateAsync(int id,EmployeeDto employeeDto)
@@ -63,5 +89,6 @@ namespace WepApi_1.Service.Services.EmployeeServices
                 return ex.Message;
             }
         }
+
     }
 }

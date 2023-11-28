@@ -26,6 +26,29 @@ namespace WepApi_1.DataAccess.Repositories.Employees
             }
         }
 
+        public async ValueTask<string> Delete(int id)
+        {
+            try
+            {
+                var res = await _appDbContext.Employees.FirstOrDefaultAsync(x=> x.Id == id);
+                if (res != null)
+                {
+                    _appDbContext.Employees.Remove(res);
+                    await _appDbContext.SaveChangesAsync();
+                    return "Employee Deleted from Base";
+                }
+                else
+                {
+                    return "Employee not found!";
+                }
+
+            }
+            catch(Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
         public async ValueTask<List<Employee>> GetAll()
         {
             try
@@ -34,6 +57,27 @@ namespace WepApi_1.DataAccess.Repositories.Employees
                 return res;
             }
             catch
+            {
+                return null;
+            }
+        }
+
+        public async ValueTask<Employee> GetById(int id)
+        {
+            try
+            {
+                var res = await _appDbContext.Employees.FirstOrDefaultAsync(x=> x.Id == id);
+                if (res != null)
+                {
+                    return res;
+                }
+                else
+                {
+                    return null;
+                }
+
+            }
+            catch (Exception ex)
             {
                 return null;
             }

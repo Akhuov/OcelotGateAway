@@ -35,5 +35,19 @@ namespace WepApplication1.Controllers.EmployeeController
             var res = await _employeeService.UpdateAsync(id, employeeDto);
             return Ok(res);
         }
+
+        [HttpDelete]
+        public async ValueTask<IActionResult> DeleteAsync(int id)
+        {
+            var res = await _employeeService.DeleteAsync(id);
+            return Ok(res);
+        }
+
+        [HttpGet("BY ID")]
+        public async ValueTask<IActionResult> GetByIdAsync(int id)
+        {
+            var res = await _employeeService.GetByIdAsync(id);
+            return Ok(res);
+        }
     }
 }
